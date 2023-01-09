@@ -1,0 +1,23 @@
+<div style="width: 50%;">
+    <h4>Filtri:</h4>
+    <div class="row">
+        <div class="col">
+            <label>Lattosio:</label>
+            <select [(ngModel)]="latSelect" (change)="filtro()" class="form-select" aria-label="Default select example">
+                <option selected>Mostra tutto</option>
+                <option value="si">Si</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+        <div class="col">
+            <label>Impasto:</label>
+            <select (change)="filtro()" [(ngModel)]="impSelect" class="form-select" aria-label="Default select example">
+                <option selected>Mostra tutto</option>
+                <option value="normale">Normale</option>
+                <option value="kamuth">Kamuth</option>
+                <option value="integrale">Integrale</option>
+            </select>
+        </div>
+    </div>
+</div><br><br>
+<div id="list"></div>
