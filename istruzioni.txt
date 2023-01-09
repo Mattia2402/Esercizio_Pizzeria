@@ -1,0 +1,2 @@
+Creazione sito web pizzeria: homepage con contenuto statico ad eccezione del banner in alto impostabile dal cliente, 
+pagina categorie, per ogni categoria i prodotti di quella categoria.
